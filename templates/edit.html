@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>QuickPage - Edit Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">QuickPage - Edit</span>
+            </div>
+          </nav>
+    <form method="post" action="/dashboard/edit">
+        <code><textarea type="text" name="code" class="form-control" id="code" rows="20" required>{{codecontent}}</textarea><br>
+        <button class="btn btn-primary" type="submit">Save</button>
+    </form>
+<br>
+</body>
+</html>

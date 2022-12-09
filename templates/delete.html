@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>QuickPage - Delete Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">QuickPage - Delete Page</span>
+            </div>
+          </nav>
+        <p>Your Pages:</p>
+        <p>{{pagelist}}</p>
+    <form method="post" action="/dashboard/deletepage">
+        <input type="text" name="filename" class="form-control" id="filename" placeholder="Please enter a file name you want to delete" required><br>
+        <button class="btn btn-danger" type="submit">Delete</button>
+    </form>
+<br>
+</body>
+</html>

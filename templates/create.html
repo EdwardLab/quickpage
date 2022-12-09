@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>QuickPage - Create New Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">QuickPage - Create New Page</span>
+            </div>
+          </nav>
+    <form method="post" action="/dashboard/create">
+        <h3>Type a Page Name</h3>
+        <input type="text" name="filename" class="form-control" id="filename" placeholder="please type a page name" required><br>
+        <h3>Page Content</h3>
+        <code><textarea type="text" name="code" class="form-control" id="code" rows="20" placeholder="Write HTML content or paste HTML code here" required></textarea></code><br>
+        <button class="btn btn-primary" type="submit">Save</button>
+    </form>
+<br>
+</body>
+</html>

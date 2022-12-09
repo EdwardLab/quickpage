@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>Register - QuickPage</title>
+    </head>
+    <body>
+        <style>
+            .operation {
+                text-align: center;
+            }
+        
+            form small {
+                display: block;
+                text-align: right;
+                color: gray;
+            }
+        
+            form label {
+                margin: 0 auto;
+            }
+        
+            form {
+                padding: 5px;
+            }
+        </style>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">QuickPage - Register</span>
+            </div>
+          </nav>
+        <form action="/register" method="POST">
+            <label for="username">Username</label><br>
+            <input type="text" name="username" class="form-control" id="username" placeholder="Username" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" class="form-control" id="password" placeholder="Password" autocomplete="off" required><br>
+            <div class="operation">
+                <button type="submit" class="form-control btn btn-primary col-6">Register!</button>
+            </div>
+        </form>
+    </body>
+</html>
