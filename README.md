@@ -40,3 +40,19 @@ http_server.serve_forever()
 Type `python start.py` to start the server. Open any browser and enter the address `http://{your_server_ip}:5400` to see the login interface
 ### Bind a domain name through a reverse proxy
 You can point Nginx and Apache to your server IP through a reverse proxy, and you can bind domain names and SSL through Nginx or Apache. As an additional option, you can consult the Apache or Nginx documentation to implement it  
+# File data tree
+```
+├───static -- static resource file
+│   ├───css
+│   ├───js
+│   └───res
+│       └───img
+├───templates -- HTML template file
+├───users
+│   ├───admin
+│   └───...... --User folder, where HTML pages are stored
+└───__pycache__ -- PyCache
+```
+# Database
+QuickPage uses Sqlite database to store user name and password, etc., and performs hash encryption through `werkzeug.security`  
+We created a test user `admin` with password `123456` by default. You can delete it by reading the database  
