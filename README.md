@@ -56,3 +56,5 @@ You can point Nginx and Apache to your server IP through a reverse proxy, and yo
 # Database
 QuickPage uses Sqlite database to store user name and password, etc., and performs hash encryption through `werkzeug.security`  
 We created a test user `admin` with password `123456` by default. You can delete it by reading the database  
+# Open Source License
+Bootstrap 5 -- [Bootstrap License](https://getbootstrap.com/docs/5.0/about/license/)
