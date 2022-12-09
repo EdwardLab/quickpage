@@ -37,3 +37,6 @@ http_server = WSGIServer(("0.0.0.0", 5400), app)
 http_server.serve_forever()
 ```
 `0.0.0.0` is the listening address, `5400` is the listening port, usually we only need to change the listening port  
+Type `python start.py` to start the server. Open any browser and enter the address `http://{your_server_ip}:5400` to see the login interface
+### Bind a domain name through a reverse proxy
+You can point Nginx and Apache to your server IP through a reverse proxy, and you can bind domain names and SSL through Nginx or Apache. As an additional option, you can consult the Apache or Nginx documentation to implement it  
