@@ -6,6 +6,7 @@ Sponsor us: [Patreon](https://www.patreon.com/xingyujie)  [PayPal](https://paypa
 [Telegram](https://t.me/digitalplatdev)  
 [Discord](https://discord.gg/xhZhjcZd)  
 [Follow us on Twitter for the latest news and updates](https://twitter.com/digitalplatdev)  
+Our official website: https://www.digitalplat.org   
 # Quick start
 Demo: https://quickpage.digitalplat.org  
 System Requirements: Linux, Windows or Unix-like System  
